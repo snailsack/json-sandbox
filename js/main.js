@@ -1,12 +1,7 @@
 //JavaScript Document
 
-var start = '{"favColor": "Blue", "favSeason":"Fall"}';
-
-var myObj = JSON.parse(start);
+var theData1 = '{"first":"Nick", "last":"Railsback", "city":"Thomaston"}';
+var myObj = JSON.parse(theData1);
 console.log(myObj);
 
-var myString = JSON.stringify(myObj);
-console.log(myString);
-
-var myObj = JSON.parse(myString);
-console.log(myObj);
+document.getElementById("message").innerHTML = myObj.last;
