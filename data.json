@@ -1,1 +1,5 @@
-{ "first": "John", "last": "Adams", "served": "1797-1801" }
+[
+    { "first": "Paul", "last": "Martin", "served": "1993-2003" },
+    { "first": "Stephen", "last": "Harper", "served": "2006-2015" },
+    { "first": "Justin", "last": "Trudeau", "served": "2015-" }
+]

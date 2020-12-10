@@ -1,21 +1,15 @@
-//JavaScript Document
+// JavaScript Document
 
-// Create new object
 var xhr = new XMLHttpRequest();
-// Set the open status
-xhr.open('GET', 'data.json', true);
-// Ensure it's coming in as text
+xhr.open('GET',"data.json",true);
 xhr.responseType = 'text';
+xhr.send();
 
+xhr.onload = function() {
+  if(xhr.status === 200){
+    var myStuff = JSON.parse(xhr.responseText);
+    console.log(myStuff);
 
-
-// onload fired if readyState has value of 4
-xhr.onload = function(){
-  if(xhr.status === 200) {
-  var myStuff = JSON.parse(xhr.responseText);
-  console.log(myStuff);
+    console.log(myStuff[0].first);
   }
 }
-
-// Send is typically at the end
-xhr.send();
