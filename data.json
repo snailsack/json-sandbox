@@ -1,5 +1,12 @@
-[
-    { "first": "Paul", "last": "Martin", "served": "1993-2003" },
-    { "first": "Stephen", "last": "Harper", "served": "2006-2015" },
-    { "first": "Justin", "last": "Trudeau", "served": "2015-" }
-]
+{
+    "prime ministers": [
+        { "first": "Paul", "last": "Martin", "served": "1993-2003" },
+        { "first": "Stephen", "last": "Harper", "served": "2006-2015" },
+        { "first": "Justin", "last": "Trudeau", "served": "2015-" }
+    ],
+    "deputy prime ministers": [
+        { "first": "John", "last": "Manley", "served": "2002-2003" },
+        { "first": "Anne", "last": "McLellan", "served": "2003-2006" },
+        { "first": "Chrystia", "last": "Freeland", "served": "2019-" }
+    ]
+}
